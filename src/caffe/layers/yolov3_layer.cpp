@@ -377,6 +377,7 @@ namespace caffe {
 				// non-logic_gradient formula
 				// https://blog.csdn.net/yanzi6969/article/details/80505421
 				// https://xmfbit.github.io/2018/03/21/cs229-supervised-learning/
+				// https://zlatankr.github.io/posts/2017/03/06/mle-gradient-descent
 			}
 			const Dtype sign(1.);
 			const Dtype alpha = sign * top[0]->cpu_diff()[0] / bottom[0]->num();
